@@ -1,50 +1,48 @@
-body{
-    background-color: #ffae16;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.head {
-    color: rgb(28, 28, 255);
-} 
 
-#bglime {
-    background-color: lime;
-    font-size: 50px;
+body {
+    height: 100vh;
+    width: 100vw;
+    font-family: Arial, sans-serif;
 }
 
-#bglime span {
-    color: red;
+
+.container {
+    height: 80vh;               
+    width: 50vw;                
+
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    margin-left: 25vw;
+    margin-right: 25vw;
+    text-align: center;
 }
 
-p {
+.image-box img {
+    width: 100%;
+    height: auto;
+}
+
+
+.btn {
+    padding: 1vh 2vw;
+
+    font-size: 2vh;
+    font-weight: bold;
     color: white;
+    width: 100%;
+    background: linear-gradient(45deg, #ff7e5f, #feb47b);
+
+    cursor: pointer;
 }
 
-#para{
-    color: green
-}
 
-p span {
-    color: black;
-    font-size: 22px;
-    font-weight: bold;
-}
-
-p:last-of-type {
-    color: rgb(0, 0, 0);
-    font-size: large;
-}
-
-a {
-    background-color: yellow;
-    color: blue;
-    font-weight: bold;
-    text-decoration: underline;
-}
-
-ol li:nth-child(2) {
-    color: blue;
-}
-
-ol li:nth-child(3) {
-    color: red;
+.btn:hover {
+    opacity: 0.9;
 }
